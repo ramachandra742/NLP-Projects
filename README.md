@@ -9,7 +9,7 @@ Dataset has been created for Sentiement Analysis by scraping user reviews for An
 The model is trained to classify sentiment (positive,negative) on scraped apps review data from Google play store.
 Here is a sample request to the API:
 
-requests.post('http://localhost:5000/predict', files={'file': open('review.txt','r')})
+requests.post('http://localhost:5000/predict', files = { 'file': open('review.txt','r')})
 
 If text in the review file has positive sentiment then,Here is the response from API looks like: 
 
@@ -54,13 +54,13 @@ Download the pre-trained BERT model:
 
 Start Flask development server:
 
-$ export FLASK_APP=predict.py
-$ export FLASK_ENV=development
+$ export FLASK_APP=predict.py      
+$ export FLASK_ENV=development       
 $ flask run
 
 Send request to API:
 
-requests.post('http://localhost:5000/predict', files={'file': open('review.txt','r')})
+requests.post('http://localhost:5000/predict', files = { 'file' : open('review.txt','r')})
 
 **License**
 
