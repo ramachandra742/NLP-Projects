@@ -1,0 +1,16 @@
+{
+
+    "BERT_MODEL": "bert-base-uncased",
+
+    "PRE_TRAINED_MODEL": "Sentiment_Analysis_Bert.pt",
+
+    "CLASS_NAMES": [
+
+        "negative",
+        "positive"
+
+    ],
+
+    "MAX_SEQUENCE_LEN": 160
+
+}
