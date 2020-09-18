@@ -11,7 +11,7 @@ Here is a sample request to the API:
 
 requests.post('http://localhost:5000/predict', files={'file': open('review.txt','r')})
 
-If text in the review file has positive sentiment then,Here is the response from API: 
+If text in the review file has positive sentiment then,Here is the response from API looks like: 
 
  {                   
  "confidence": 0.9956058859825134,          
@@ -23,7 +23,7 @@ If text in the review file has positive sentiment then,Here is the response from
   "text": "b'OMG. I love how easy it is to stick to my schedule. Would recommend to everyone!'"         
 }
 
-If text in the review file has negative sentiment, then here is the response from API:
+If text in the review file has negative sentiment, then here is the API response looks like:
 
 {                                         
   "confidence": 0.9994189739227295,          
