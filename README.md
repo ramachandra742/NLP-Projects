@@ -43,7 +43,7 @@ If text in the review file has negative sentiment, then here is the API response
 
 Clone this repo:     
 
-git clone git@github.com:ramachandra742/NLP-projects.git         
+git clone git@github.com:ramachandra742/NLP-Projects.git         
 cd NLP-projects/BERT-Sentiment-Analyzer  
 
 Install the dependencies: 
